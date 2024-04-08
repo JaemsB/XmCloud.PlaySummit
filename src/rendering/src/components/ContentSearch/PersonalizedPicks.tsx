@@ -22,7 +22,7 @@ export type PersonalizedPicksProps = {
 
 type InitialState = SearchResultsInitialState<'itemsPerPage'>;
 
-const PersonalizedPicks = ({ itemsToDisplay = 6, sxaStyles = '' }: PersonalizedPicksProps) => {
+const PersonalizedPicks = ({ itemsToDisplay = 3, sxaStyles = '' }: PersonalizedPicksProps) => {
   const {
     widgetRef,
     actions: { onItemClick },
